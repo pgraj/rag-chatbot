@@ -151,7 +151,7 @@ Type any question about the course catalog — the RAG pipeline retrieves releva
 ```bash
 streamlit run pipeline_monitor.py
 ```
-Open your browser at: **http://localhost:8501**
+Open your browser at: **http://localhost:8502**
 
 The pipeline monitor displays:
 - Live query history and response latency
