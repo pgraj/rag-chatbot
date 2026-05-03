@@ -1,0 +1,14 @@
+@"
+.env
+chroma_db/
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+query_bridge.json
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
