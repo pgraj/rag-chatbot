@@ -195,6 +195,6 @@ MIT Licence — free to use, modify, and distribute.
 
 ---
 
-## 🙋 Questions or Issues?
+##  Questions or Issues?
 
 Open a GitHub Issue or start a Discussion in this repository.
