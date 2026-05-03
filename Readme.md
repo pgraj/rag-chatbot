@@ -1,10 +1,10 @@
-# 🤖 RAG Chatbot — Course Catalog AI Assistant
+#  RAG Chatbot — Course Catalog AI Assistant
 
 A **Retrieval-Augmented Generation (RAG)** chatbot that ingests a course catalog PDF, stores vector embeddings in ChromaDB, and lets users query course information through an interactive Streamlit chat interface. Includes a full pipeline monitoring dashboard and vector database explorer.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rag-chatbot/
@@ -29,7 +29,7 @@ rag-chatbot/
 
 ---
 
-## 🧩 What Each File Does
+##  What Each File Does
 
 | File | Description |
 |------|-------------|
@@ -44,7 +44,7 @@ rag-chatbot/
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 ### Python Version
 ```
@@ -78,7 +78,7 @@ Full pinned dependency list: see `requirements.txt`
 
 ---
 
-## 🔑 API Key Setup (Required)
+##  API Key Setup (Required)
 
 This project uses LLM APIs (Anthropic Claude and/or Google Gemini). You must supply your own API keys.
 
@@ -105,7 +105,7 @@ It is listed in `.gitignore` and will never be pushed to GitHub.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Step 1 — Clone the repository
 ```bash
@@ -125,7 +125,7 @@ venv\Scripts\activate        # Windows PowerShell
 pip install -r requirements.txt
 ```
 
-> ⚠️ `torch==2.11.0` is a large download (~2 GB). Allow extra time for this step.
+> `torch==2.11.0` is a large download (~2 GB). Allow extra time for this step.
 
 ### Step 4 — Create your `.env` file
 Create `.env` in the project root and add your API keys (see API Key Setup above).
@@ -146,7 +146,7 @@ Type any question about the course catalog — the RAG pipeline retrieves releva
 
 ---
 
-## 📊 Running the Pipeline Monitor
+##  Running the Pipeline Monitor
 
 ```bash
 streamlit run pipeline_monitor.py
@@ -162,7 +162,7 @@ The pipeline monitor displays:
 
 ---
 
-## 🔧 Other Utilities
+##  Other Utilities
 
 **Inspect ChromaDB contents (command line):**
 ```bash
@@ -181,7 +181,7 @@ streamlit run vector_explorer.py
 
 ---
 
-## 🗂️ Notes
+##  Notes
 
 - `chroma_db/` is excluded from the repository and is auto-generated when you run `ingest.py`. You do not need to commit it.
 - `query_bridge.json` is a runtime file created automatically during pipeline execution. It does not need to be committed.
@@ -189,7 +189,7 @@ streamlit run vector_explorer.py
 
 ---
 
-## 📄 Licence
+##  Licence
 
 MIT Licence — free to use, modify, and distribute.
 
