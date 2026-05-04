@@ -43,6 +43,7 @@ rag-chatbot/
 | `vector_explorer.py` | Advanced Streamlit tool for exploring the embedding space. Visualises vector similarity, allows manual similarity searches, and shows how document chunks are distributed. |
 
 ---
+<img width="651" height="504" alt="image" src="https://github.com/user-attachments/assets/689d02f5-7f87-4be9-b141-17f4b47f1d1e" />
 
 ##  Requirements
 
