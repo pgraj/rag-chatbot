@@ -45,7 +45,12 @@ rag-chatbot/
 ---
 <img width="651" height="504" alt="image" src="https://github.com/user-attachments/assets/689d02f5-7f87-4be9-b141-17f4b47f1d1e" />
 
+### data query flow
+
 <img width="640" height="573" alt="image" src="https://github.com/user-attachments/assets/78159ed8-1fb7-4564-8473-ec8bb3033bfe" />
+
+
+### Component Interactions
 
 <img width="632" height="492" alt="image" src="https://github.com/user-attachments/assets/d40ba3e4-69f8-4142-a6c6-9d87b4ca7397" />
 
